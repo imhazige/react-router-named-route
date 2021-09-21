@@ -2,6 +2,13 @@
 
 Named Route based on react-router
 
+## Installation
+`npm i react-router-named-route`
+
+add peer dependencies if you have not installed them yet.
+
+`npm i history@4 react-router@5 react-router-dom@5 react-helmet`
+
 ## Usage
 ### Define Routes
 See [example/src/AppRoutes.tsx](./example/src/AppRoutes.tsx) 
@@ -81,4 +88,4 @@ The hook `useRoute` will return a RouteState:
 See [example/src/NotFound.tsx](./example/src/NotFound.tsx)
 
 ## Note
-This only work with react-router@4
+This only work with react-router@5
