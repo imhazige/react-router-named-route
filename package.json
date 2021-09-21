@@ -1,0 +1,35 @@
+{
+  "name": "react-router-named-route",
+  "version": "1.0.0",
+  "description": "Named ",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imhazige/react-router-named-route.git"
+  },
+  "keywords": [],
+  "author": "imhazige",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/imhazige/react-router-named-route/issues"
+  },
+  "homepage": "https://github.com/imhazige/react-router-named-route#readme",
+  "devDependencies": {
+    "@types/react": "^17.0.21",
+    "@types/react-helmet": "^6.1.2",
+    "@types/react-router-dom": "^5.1.9",
+    "typescript": "^4.4.3"
+  },
+  "peerDependencies": {
+    "history": "4",
+    "react-router": "5",
+    "react": "^17.0.2",
+    "react-helmet": "^6.1.0",
+    "react-router-dom": "5"
+  },
+  "dependencies": {}
+}
